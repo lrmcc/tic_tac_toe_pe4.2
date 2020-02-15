@@ -78,27 +78,82 @@ using namespace std;
 
 
 
-void CreateBoard(){
-    int x = 3; 
-    int y = 3; 
+vector<vector<string> > CreateBoard(int xk, int cd) {
 
-    vector<vector<string> > vec( x , vector<string> (y, "  _  "));  
+    int x = xk; 
 
-    for (int i = 0; i < x; i++) { 
-        cout<< "\n     |     | \n"; 
-        cout<< "     |     |\n";
-        for (int j = 0; j < y; j++){ 
-            cout<< vec[i][j]<< " "; 
-        } 
-        cout<< "\n     |     | \n";
-        cout<< "     |     |\n";
-        cout<< "__________________\n"; 
-    } 
+    int y = cd; 
+
+    vector<vector<string> > board( x , vector<string> (y, "    ")); 
+
+    return board; 
+
 }
 
+
+
+
+
+void DisplayBoard(vector<vector<string> > tictactoe_board, int xk, int cd) { //joe
+
+    int x = xk; 
+
+    int y = cd; 
+
+    for (int i = 0; i < x; i++) { 
+
+        cout<< "\n     |     | \n"; 
+
+        cout<< "     |     |\n";
+
+        for (int j = 0; j < y; j++){ 
+
+            cout<< tictactoe_board[i][j];//<< " |"; 
+
+            if (j < 2){
+
+            cout<< " |"; 
+
+        }
+
+        else{
+
+            break; 
+
+        }
+
+        }  
+
+        if (i < 2){
+
+            cout<< "\n__________________\n"; 
+
+        }
+
+        else{
+
+            break;
+
+        }
+
+    } 
+
+    cout << "\n"<< endl;
+
+}
+
+
+
 int main() { 
-    CreateBoard();
-    
+
+    int x = 3;
+
+    int y = 3;
+
+    DisplayBoard(CreateBoard(x,y),x,y);
+
     return 0; 
 
-} 
+
+
+}
