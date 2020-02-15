@@ -1,0 +1,199 @@
+user@cu-cs-vm:~/Desktop/pe4.2/tic_tac_toe_pe4.2$ g++ TicTacToe.cpp 
+user@cu-cs-vm:~/Desktop/pe4.2/tic_tac_toe_pe4.2$ ./a.out 
+
+
+  _  |  _  |  _  
+ ____|_____|____
+  _  |  _  |  _  
+ ____|_____|____
+  _  |  _  |  _  
+     |     |
+
+
+Type the number of the space you want to take your turn at followed by a capital X or O: 
+1|2|3
+-----
+4|5|6
+-----
+7|8|9
+example turn valid entry could be '5X' or '7O'
+1X
+Your entry was: 1X
+position: 1
+mark X
+
+
+  X  |  _  |  _  
+ ____|_____|____
+  _  |  _  |  _  
+ ____|_____|____
+  _  |  _  |  _  
+     |     |
+
+
+Type the number of the space you want to take your turn at followed by a capital X or O: 
+1|2|3
+-----
+4|5|6
+-----
+7|8|9
+example turn valid entry could be '5X' or '7O'
+2O
+Your entry was: 2O
+position: 2
+mark O
+
+
+  X  |  O  |  _  
+ ____|_____|____
+  _  |  _  |  _  
+ ____|_____|____
+  _  |  _  |  _  
+     |     |
+
+
+Type the number of the space you want to take your turn at followed by a capital X or O: 
+1|2|3
+-----
+4|5|6
+-----
+7|8|9
+example turn valid entry could be '5X' or '7O'
+3X
+Your entry was: 3X
+position: 3
+mark X
+
+
+  X  |  O  |  X  
+ ____|_____|____
+  _  |  _  |  _  
+ ____|_____|____
+  _  |  _  |  _  
+     |     |
+
+
+Type the number of the space you want to take your turn at followed by a capital X or O: 
+1|2|3
+-----
+4|5|6
+-----
+7|8|9
+example turn valid entry could be '5X' or '7O'
+4X
+Your entry was: 4X
+position: 4
+mark X
+
+
+  X  |  O  |  X  
+ ____|_____|____
+  X  |  _  |  _  
+ ____|_____|____
+  _  |  _  |  _  
+     |     |
+
+
+Type the number of the space you want to take your turn at followed by a capital X or O: 
+1|2|3
+-----
+4|5|6
+-----
+7|8|9
+example turn valid entry could be '5X' or '7O'
+5O
+Your entry was: 5O
+position: 5
+mark O
+
+
+  X  |  O  |  X  
+ ____|_____|____
+  X  |  O  |  _  
+ ____|_____|____
+  _  |  _  |  _  
+     |     |
+
+
+Type the number of the space you want to take your turn at followed by a capital X or O: 
+1|2|3
+-----
+4|5|6
+-----
+7|8|9
+example turn valid entry could be '5X' or '7O'
+6O
+Your entry was: 6O
+position: 6
+mark O
+
+
+  X  |  O  |  X  
+ ____|_____|____
+  X  |  O  |  O  
+ ____|_____|____
+  _  |  _  |  _  
+     |     |
+
+
+Type the number of the space you want to take your turn at followed by a capital X or O: 
+1|2|3
+-----
+4|5|6
+-----
+7|8|9
+example turn valid entry could be '5X' or '7O'
+7X
+Your entry was: 7X
+position: 7
+mark X
+
+
+  X  |  O  |  X  
+ ____|_____|____
+  X  |  O  |  O  
+ ____|_____|____
+  X  |  _  |  _  
+     |     |
+
+
+Type the number of the space you want to take your turn at followed by a capital X or O: 
+1|2|3
+-----
+4|5|6
+-----
+7|8|9
+example turn valid entry could be '5X' or '7O'
+8X
+Your entry was: 8X
+position: 8
+mark X
+
+
+  X  |  O  |  X  
+ ____|_____|____
+  X  |  O  |  O  
+ ____|_____|____
+  X  |  X  |  _  
+     |     |
+
+
+Type the number of the space you want to take your turn at followed by a capital X or O: 
+1|2|3
+-----
+4|5|6
+-----
+7|8|9
+example turn valid entry could be '5X' or '7O'
+9X
+Your entry was: 9X
+position: 9
+mark X
+
+
+  X  |  O  |  X  
+ ____|_____|____
+  X  |  O  |  O  
+ ____|_____|____
+  X  |  X  |  X  
+     |     |
