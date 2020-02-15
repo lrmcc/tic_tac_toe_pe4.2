@@ -84,6 +84,33 @@ void DisplayBoard(vector<vector<string> > tictactoe_board ) {
     } 
     cout << "\n"<< endl;
 }
+
+string GetPlayerChoice(){
+
+    string choice; 
+
+    cout << "Type the number of the space you want to take your turn at followed by a capital X or O: " << endl; 
+
+    cout << "1|2|3" <<endl;
+
+    cout << "-----" <<endl;
+
+    cout << "4|5|6" <<endl;
+
+    cout << "-----" <<endl;
+
+    cout << "7|8|9" <<endl;
+
+    cout << "example turn valid entry could be \'5X\' or \'7O\'" <<endl;
+
+    cin >> choice;
+
+    cout << "Your entry was: " << choice <<endl; 
+
+    return choice;
+
+}
+
 int main() { 
     vector<vector<string> > Board = CreateBoard();
     DisplayBoard(Board);
